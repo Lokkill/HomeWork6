@@ -40,9 +40,9 @@ public abstract class Animal {
         System.out.println(name + " jump: " + (value <= heightJump));
     }
 
-    public double rangeRandom(double min, double max, int multiply){
+    public double rangeRandom(double min, double max, int multiplier){
 
-        return ((Math.random() * ((max - min) + 1)) + min) * (double)multiply;
+        return ((Math.random() * ((max - min) + 1)) + min) * (double)multiplier;
     }
 
     public void setHeightJump(double heightJump) {
